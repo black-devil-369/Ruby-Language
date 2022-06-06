@@ -3,10 +3,10 @@ class Pattern
         puts"Enter the Number for printing star"
         n = gets.chomp.to_i
         for i in (1..n)
-            for j in(1..i)
+            for j in(1..i) 
                 print" * "
             end
-             puts" "
+             puts"   "
         end
     end
 end
